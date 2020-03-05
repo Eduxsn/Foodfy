@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    margin: 20px auto;
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: 180px 50px 50px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', regular;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 940px;
+    height: 366px;
+    border-radius: 30px;
+    background-color: #FBDFDB;
+    display: grid;
+    grid-template-columns: 500px 300px;
+}
+
+.banner .text-banner {
+    width: 316px;
+    margin-left: 36px;
+    text-align: left;
+}
+
+.banner h1 {
+    color: #111111;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 100px;
+    font-weight: 700;
+}
+.banner p {
+    opacity: 0.7;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+    max-width: 220px;
+    margin-top: 0px;
+}
+.banner img {
+    margin-top: 66px;
+    margin-left: 100px;
+    margin-right: 624px;
+}
+
+body h2 {
+    max-width: 940px;
+    margin: 0 auto;
+    color: #111111;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.lista-receitas {
+    margin-top: 0px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.card-image img {
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.card-titulo {
+    margin-top: 20px;
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #111111;
+}
+
+.card-autor {
+    margin-top: 5px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #777777;
+}
+
+.lista-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+footer {
+    height: 62px;
+    background-color: #EEEEEE;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 16px;
+}
+
+.paragrafo {
+    width: 940px; 
+}
+
+.body_texto {
+    width: 940px;
+    align-items: center;
+}
