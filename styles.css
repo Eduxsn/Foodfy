@@ -110,7 +110,9 @@ footer {
     display: grid;
     align-items: center;
     margin-bottom: 0;
+    bottom: 0;
 }
+
 
 footer p {
     color: #999999;
@@ -118,11 +120,26 @@ footer p {
     font-weight: 16px;
 }
 
-.paragrafo {
-    width: 940px; 
+.menu .pagina-selecionada {
+    font-family: Roboto-bold;
 }
 
-.body_texto {
+.corpo-pagina {
     width: 940px;
-    align-items: center;
+    margin: 0 auto;
+
+}
+
+.paragrafo-titulo {
+    font-size: 24px;
+    color: #111111;
+    font-family: Roboto-bold;
+    padding: 50px 0px 20px;
+}
+
+.paragrafo-texto {
+    font-family: Roboto-Regular;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
 }
