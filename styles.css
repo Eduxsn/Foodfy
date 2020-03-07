@@ -143,3 +143,11 @@ footer p {
     color: #444444;
     line-height: 28px;
 }
+
+.lista-receitas-receitas {
+    margin-top: 0px;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
