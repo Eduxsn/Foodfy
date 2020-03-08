@@ -5,11 +5,11 @@ for (let card of cards) {
     card.addEventListener('click', function(){
         const cardId = card.getAttribute('id')
         modalOverlay.classList.add('active')
-        modalOverlay.querySelector('iframe').src = ''
+        modalOverlay.querySelector('iframe').src = `${cardId}`
     })
 }
 
 document.querySelector('.close-modal').addEventListener('click', function(){
-    modalOverlay.classList('active')
+    modalOverlay.classList.remove('active')
     modalOverlay.querySelector('iframe'). src = ""
 })
